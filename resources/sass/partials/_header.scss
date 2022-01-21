@@ -1,23 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-.container {
-  width: 65%;
-  margin: 0 auto;
-}
-
-nav ul {
-  list-style: none;
-}
-
-header .header-top {
+header .header-top{
   background-color: #0282f9;
   padding: 3px;
 }
@@ -34,11 +15,13 @@ header .header-top {
   color: white;
 }
 
-.header-top .container nav ul li:first-of-type {
+.header-top .container nav ul li:first-of-type{
   padding-right: 50px;
 }
 
-.header-top .container nav ul li i {
+.header-top .container nav ul li i{
   padding-left: 5px;
   font-size: 12px;
 }
+
+
