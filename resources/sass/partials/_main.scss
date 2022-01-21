@@ -1,0 +1,28 @@
+main .jumbotron{
+  height: 320px;
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+  background-position: center;
+  background-position-y: top;
+}
+
+main .comic-center{
+  height: 520px;
+  background-color: #1c1c1c;
+  position: relative;
+}
+
+main .container .title{
+  background-color: #0282f9;
+  width: 220px;
+  text-align: center;
+  position: absolute;
+  top: -25px;
+}
+
+main .container .title h2{
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight:900;
+}

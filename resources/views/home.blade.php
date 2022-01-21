@@ -1,6 +1,21 @@
 @extends('layouts.app')
 @section('content')
   
-  <h1>Home</h1>
+  <main>
+
+    <div class="jumbotron"></div>
+
+    <div class="comic-center">
+      <div class="container">
+
+        <div class="title">
+          <h2>current series</h2>
+        </div>
+
+      </div>
+    </div>
+
+
+  </main>
     
 @endsection
