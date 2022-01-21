@@ -1,6 +1,7 @@
 header .header-top{
   background-color: #0282f9;
   padding: 3px;
+  height: 20px;
 }
 
 .header-top .container {
@@ -8,7 +9,7 @@ header .header-top{
   justify-content: end;
 }
 
-.header-top .container nav ul {
+.header-top .container nav ul,.header-bottom .container nav ul {
   display: flex;
   font-size: 10px;
   text-transform: uppercase;
@@ -23,5 +24,60 @@ header .header-top{
   padding-left: 5px;
   font-size: 12px;
 }
+
+header .header-bottom{
+  height:90px;
+  border-bottom: 1px solid aqua;
+}
+
+.header-bottom .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header-bottom .container img{
+  height: 80px;
+  padding-top: 10px;
+}
+
+.header-bottom .container nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bottom .container nav ul li{
+  margin: 0 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.header-bottom .container nav ul li a{
+  color: #3d3d3d;
+}
+
+
+.header-bottom .container nav ul li a:hover{
+  padding-bottom: 38px;
+  border-bottom: 4px solid #0282f9;
+}
+
+.header-bottom .container .search-bar input{
+  border: none;
+  border-bottom: 2px solid #0282f9;
+}
+
+.header-bottom .container .search-bar input::placeholder{
+  text-align: right;
+  color: #3d3d3d;
+}
+
+.header-bottom .container .search-bar i{
+  color: #3d3d3d;
+  padding-bottom: 1px;
+  border-bottom: 2px solid #0282f9;
+}
+
 
 

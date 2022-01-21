@@ -14,7 +14,7 @@
   <div class="header-bottom">
     <div class="container">
 
-      <img src="" alt="">
+      <img src="{{asset('img/dc-logo.png')}}" alt="logo">
 
       <nav>
         <ul>
@@ -32,7 +32,7 @@
       </nav>
 
       <div class="search-bar">
-        <input type="text" placeholder="search">
+        <input type="text" placeholder="Search" ><i class="fas fa-search"></i>
       </div>
 
     </div>
