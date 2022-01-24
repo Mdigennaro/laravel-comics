@@ -7,9 +7,9 @@ main .jumbotron{
 }
 
 main .comic-center{
-  height: 520px;
   background-color: #1c1c1c;
   position: relative;
+  padding-bottom: 50px;
 }
 
 main .container .title{
@@ -20,9 +20,84 @@ main .container .title{
   top: -25px;
 }
 
+main .container .load{
+  background-color: #0282f9;
+  text-align: center;
+  position: absolute;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+main .container .load h2{
+  padding: 10px 50px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
 main .container .title h2{
   color: white;
   text-transform: uppercase;
   padding: 10px;
   font-weight:900;
 }
+
+main .container .box-fumetti{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.box-fumetti .fumetto{
+  flex-basis: calc(100% / 6);
+  min-width: 150px;
+  padding: 10px;
+}
+
+.box-fumetti .fumetto .cover{
+  height: 55%;
+  overflow-y: hidden;
+  margin-bottom: 10px;
+}
+
+.box-fumetti .fumetto .cover img{
+  width: 100%;
+}
+
+.box-fumetti .fumetto a{
+  color: white;
+  font-size: 16px;
+}
+
+.comic-bottom{
+  height: 120px;
+  background-color: #0282f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comic-bottom ul{
+  width: 100%;
+  list-style:none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.comic-bottom li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.comic-bottom img{
+  width: 35px;
+  margin: 10px;
+}
+
+

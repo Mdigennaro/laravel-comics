@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 
+  <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
   <title>Home</title>
 </head>
 <body>
@@ -18,6 +19,8 @@
   @include('partials.header')
 
   @yield('content')
+
+  @include('partials.footer')
   
 </body>
 </html>
